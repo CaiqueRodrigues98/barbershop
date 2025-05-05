@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Serif&display=swap"
+        rel="stylesheet">
+    <title>Barbearia Shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="Logo>" class="logo-img">
+            </a>
+            <nav class="navbar">
+                <a href="#Inicio">Inicio</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#localizacao">Unidades</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+        </section>
+    </header>
+    <div class="home-container">
+        <section id="#home">
+            <div class="content">
+                <h3>Barbearia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error natus odio pariatur rem qui, maiores
+                    delectus, voluptate dignissimos praesentium totam consequatur odit ipsam veritatis nihil quam sed
+                    dolore? Minima, nobis.</p>
+                <a href="contato" class="btn" onclick="enviarMensagem(event)">AGENDE SEU HORÁRIO</a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <section class="sobre" id="sobre">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-img">
+                <img src="./img/sobre.jpg" alt="Sobre nós" class="img-sobre">
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h2 class="title">Nossos <span>Serviços</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/corte.jpg" alt="Cabelo" class="img-servicos">
+                <h3>Cabelo</h3>
+                <div class="price">R$80,00</div>
+                <p>Corte de cabelo com estilo e qualidade.</p>
+            </div>
+            <div class="box">
+                <img src="./img/barba.jpg" alt="Barba" class="img-servicos">
+                <h3>Barba</h3>
+                <div class="price">R$40,00</div>
+                <p>Corte de barba com estilo e precisão.</p>
+            </div>
+            <div class="box">
+                <img src="./img/hidra.jpg" alt="Hidratação" class="img-servicos">
+                <h3>Hidratação</h3>
+                <div class="price">R$60,00</div>
+                <p>Hidratação capilar com qualidade e cuidado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <h2 class="title">Nossos <span>Clientes</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/quote-img.png" alt="comentario">
+                <img src="./img/Cliente1.png" alt="Cliente 1" class="img-cliente">
+                <p>Ótimo serviço!</p>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="comentario">
+                <img src="./img/cliente2.png" alt="Cliente 1" class="img-cliente">
+                <p>Excelentes profissionais!</p>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="comentario">
+                <img src="./img/Cliente3.png" alt="Cliente 1" class="img-cliente">
+                <p>Ótimo atendimento, superou minhas expectativas</p>
+                <div class="star">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="localizacao" id="localizacao">
+        <h2 class="title">Nossas <span>Unidades</span></h2><br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9355987477043!2d-46.64579522627816!3d-23.570756361934333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd7dd3f269%3A0x72273dff36e63560!2sShopping%20P%C3%A1tio%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1746405018701!5m2!1spt-BR!2sbr"
+            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+
+        <form class="formulario-contato" id="formulario-contato" onsubmit="enviarMensagem(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <input placeholder="e-mail" class="campo-form" id="email">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6"
+                    id="mensagem"></textarea><br><br>
+
+            </div>
+            <button type="submit" class="botao-form">Enviar</button>
+        </form>
+
+    </section> 
+
+    <section class="footer">
+        <div class="share">
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/40/ffffff/instagram-new--v1.png" alt="instagram-new--v1"/>
+            <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/40/ffffff/facebook.png" alt="facebook"/>
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/40/ffffff/youtube-play.png" alt="youtube-play"/>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
