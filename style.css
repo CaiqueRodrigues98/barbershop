@@ -375,3 +375,72 @@ iframe {
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+    .header section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    .home-container {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .content h3 {
+        font-size: 4rem;
+    }
+
+    .content p {
+        font-size: 1.6rem;
+    }
+
+    .img-sobre {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .servico {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .img-servicos {
+        max-width: 100%;
+    }
+
+    .formulario-contato {
+        padding: 2rem;
+    }
+
+    .campo-form {
+        font-size: 1.4rem;
+    }
+
+    .botao-form {
+        font-size: 2rem;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer .share img {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+}
